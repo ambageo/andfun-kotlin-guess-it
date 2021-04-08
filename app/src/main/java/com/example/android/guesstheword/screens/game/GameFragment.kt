@@ -59,7 +59,7 @@ class GameFragment : Fragment() {
 
         // TODO (04) Create and initialize a GameViewModel, using ViewModelProvider; Add a log
         // statement
-        Log.i("GGG", "Instantiating the GameViewModel")
+        Log.i("GGG", "Calling the GameViewModel")
         viewModel = ViewModelProvider(this).get(GameViewModel::class.java)
 
         resetList()
